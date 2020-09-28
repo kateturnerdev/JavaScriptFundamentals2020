@@ -95,18 +95,18 @@ function getLastWordInPlaceName(place) {
  */
 
 function getLargerNumber(arg1, arg2) {
-  let largestNumber = function () {
+  let largestNumber = null;
   if (arg1 > arg2) {
-    console.log (arg1);
+    largestNumber = arg1;
   }
   else if (arg2 > arg1) {
-    console.log (arg2);
+    largestNumber = arg2;
   }
   else {
     console.log(`$(arg1) and $(arg2) are of equal value`);
-  }
+
 }
-;
+
 return largestNumber;
 }
 
