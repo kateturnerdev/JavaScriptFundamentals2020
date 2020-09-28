@@ -78,13 +78,12 @@ function testLogicalOr(num) {
 
 function isEvenOrOdd(isEven) {
  if (isEven %2 === 0) {
-  return "true";
+  return true;
  }
-  if (isEven %2 !== 0)
-  {
-  return "false";
+ 
+  return false;
  }
-}
+
 
 
 
@@ -110,33 +109,24 @@ function isEvenOrOdd(isEven) {
 function caseInSwitch(num) {
   switch (num) {
     case 1:
-    console.log ("ONE");
-    break;
+   return "ONE";
     case 2:
-    console.log ("TWO");
-    break;
+  return "TWO";
     case 3:
-    console.log ("THREE");
-    break;
+   return "THREE";
     case 4:
-    console.log ("FOUR");
-    break;
+    return "FOUR";
     case 5:
-    console.log ("FIVE");
-    break;
+    return "FIVE";
     case 6:
-    console.log ("SIX");
-    break;
+    return "SIX";
     case 7:
-    console.log ("SEVEN");
-    break;
+    return "SEVEN";
     case 8:
-    console.log ("EIGHT");
-    break;
+    return "EIGHT";
     case 9:
-    console.log ("NINE");
-    break;
-    default: console.log ("PLEASE TRY AGAIN");
+    return "NINE";
+    default: return "PLEASE TRY AGAIN";
   }
     
 }
