@@ -2,7 +2,13 @@
  * Create a function named called "printGreeting".
  * It should accept a name and return "Hello ______!"
  * @example printGreeting("Tim"); // Hello Tim!
- */
+ */let printGreeting = (name) => {
+   return (`Hello ${name}!`);
+ };
+ printGreeting('Tim');
+
+
+
 
 /**
  * Create a function named "timesFive". It should multiply a number by 5.
@@ -10,7 +16,10 @@
  * @example timesFive(2); // 10
  * @example timesFive(0); // 0
  */
-
+let timesFive = (num) => {
+  return num * 5;
+};
+timesFive (5);
 /**
  * Create a function called "lowerCaseName".
  * If given a string, it should return the string lower cased.
@@ -20,6 +29,13 @@
  * @example lowerCaseName(); // undefined (should not throw an error)
  * @example lowerCaseName(null); // undefined (should not throw an error)
  */
+let lowerCaseName = (str) => {
+  if  (typeof str === 'string')
+  {return str.toLowerCase();}
+  else return undefined;
+};
+lowerCaseName ('HELLO WORLD');
+
 
 /**
  * Create a function called "isEvenOrOdd".
@@ -27,14 +43,23 @@
  * If given an odd number, it should return "odd".
  * @example isEvenOrOdd(10); // even
  * @example isEvenOrOdd(3); // odd
- */
+ */let isEvenOrOdd = (num) => {
+if (num %2 === 0){
+  return "even";
+} 
+return "odd";
+
+ }
 
 /**
  * Create a function called "countNumberOfDigits".
  * Given an integer, it should return the number of digits in an integer.
  * @example countNumberOfDigits(5000); // 4
  */
-
+let countNumberOfDigits = (int) => {
+return (""+int).length--;
+};
+countNumberOfDigits(5000);
 /**
  * Ignore everything below this line. This is for the tests.
  */
