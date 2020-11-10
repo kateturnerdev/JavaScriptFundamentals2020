@@ -9,4 +9,25 @@
  * element in the collection and console.log each element. (See the slides)
  * 
  * Do not change the HTML unless you are instructed to do so.
- */
+**/
+
+
+
+const exerciseOne = document.querySelector("li");
+console.log (exerciseOne);
+
+const exerciseTwo = document.querySelector("#myId");
+console.log(exerciseTwo);
+
+const exerciseThree = document.querySelectorAll("li");
+console.log(Object.values(exerciseThree));
+
+const exerciseFour = document.querySelectorAll(".bg-warning");
+console.log(Object.values(exerciseFour));
+
+const exerciseFive = document.querySelectorAll(".bg-success .col");
+console.log(Object.values(exerciseFive));
+
+const exerciseSix = document.querySelector("[data-targets]");
+console.log (exerciseSix);
+
