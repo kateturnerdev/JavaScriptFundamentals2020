@@ -6,7 +6,9 @@
  *  addItems([1,5,6]) // 12
  *  addItems([1,-2,-3]) // -4
  */
-const addItems = (arr) => {};
+const addItems = (arr) => {
+  
+};
 
 /**
  * Create a function that flattens an array (that is, it should "unnest" a nested array).

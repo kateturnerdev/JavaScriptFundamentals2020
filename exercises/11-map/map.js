@@ -5,7 +5,10 @@
  * @param {function} callback
  * @returns {array} new array
  */
-const map = (arr, callback) => {};
+const map = (arr, callback) => {
+
+  
+};
 
 /**
  * Multiplies each value in an array by two

@@ -32,7 +32,7 @@ timesFive (5);
 let lowerCaseName = (str) => {
   if  (typeof str === 'string')
   {return str.toLowerCase();}
-  else return undefined;
+  // else return undefined;
 };
 lowerCaseName ('HELLO WORLD');
 

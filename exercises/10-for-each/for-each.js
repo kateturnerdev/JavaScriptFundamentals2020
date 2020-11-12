@@ -4,7 +4,9 @@
  * @param {array} arr
  * @param {function} callback
  */
-const forEach = (arr, callback) => {};
+const forEach = (arr, callback) => {
+  
+};
 
 /**
  * Given an array of strings, remove all letters of each value except the first and last character in the strings

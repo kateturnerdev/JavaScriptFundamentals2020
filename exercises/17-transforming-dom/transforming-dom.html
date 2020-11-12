@@ -19,7 +19,7 @@
   </head>
   <body>
     <div class="container mt-3 mb-3">
-      <div class="alert alert-danger">
+      <div class="alert alert-danger" id="alert">
         Add the role attribute to this <em>&lt;div&gt;</em> so that is equal to
         "alert". For example, this div tag should turn into:
         <div>
@@ -53,7 +53,7 @@
         color using inline styles.
       </div>
 
-      <div class="alert alert-danger">
+      <div class="alert alert-danger" data-mine>
         Change the text color of this <em>&lt;div&gt;</em> to another color by
         changing the class.
         <a
@@ -63,7 +63,7 @@
         >
       </div>
 
-      <div class="alert alert-warning">
+      <div class="alert alert-warning" data-go>
         Hide this <em>&lt;div&gt;</em> using inline styles.
       </div>
 
@@ -80,7 +80,7 @@
           this button
         </button>
         has class <em>btn-primary</em>.
-        <div class="text-dark">
+        <div class="text-dark" id="buttonText">
           <!-- if button has class "btn-primary", put text here -->
         </div>
       </div>

@@ -26,7 +26,14 @@ const find = (arr, callback) => {};
  * findUser(users, 1025);
  * // { id: 1025, username:"newyorkfarmer", email: "johndoe@example.com" }
  */
-const findUser = (arr, id) => {};
+const findUser = (users, id) => {
+  let found = users.find ( (user) => {
+    if (user.id === id)
+    {
+      return user;
+    }
+  });
+};
 
 module.exports = {
   find,
